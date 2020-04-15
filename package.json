@@ -1,0 +1,24 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build; webpack-dev-server --open --mode development",
+    "lint": "eslint src/*.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Taylor Phillips",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "eslint": "^6.3.0",
+    "eslint-loader": "^3.0.0",
+    "jest": "^24.9.0",
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
