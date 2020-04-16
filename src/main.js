@@ -26,3 +26,13 @@ $('#boss').click(function()  {
   }
 });
 
+$("#sidequest").click(function() {
+  playerCharacter.health -= 5;
+  playerCharacter.deadCheck();
+
+});
+
+export endGameInFailure(cause){
+  $("#phase3").show()
+  $("#phase3").append("you died.");
+}

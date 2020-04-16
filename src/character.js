@@ -28,6 +28,11 @@ export class Character {
     this.health += 1;
   }
 
-
+  deadCheck() {
+    if (this.health <= 0) {
+      endGameInFailure(cause);
+    }
+  }
 }
+
 
