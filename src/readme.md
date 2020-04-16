@@ -14,7 +14,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
   3. Assign stats based on role.
   4. Add functionality for gain a level. (new spells? stats?)
   5. Player chooses an encounter: Random Encounter or Boss.
-  6. 
+  6. Player chooses random encounter (gain a level)
+  7. Player chooses fight boss (level < 3, win, else, lose)
+  8. Hide/show relevant segment of game
 
 ## Setup/Installation Requirements
 
