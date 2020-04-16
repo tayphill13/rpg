@@ -9,6 +9,6 @@ describe('Character', () => {
 
   test('Should test that specialty is a valid selection', () => {
     let test2 = new Character("barbarian");
-    expect(test2.might).toEqual(7);
+    expect(test2.might).toEqual(10);
   });
 });
