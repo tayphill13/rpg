@@ -1,9 +1,12 @@
+import { endGameInFailure } from "./../src/main.js";
+
 export class Character {
-  constructor(specialty) {
+  constructor() {
     this.xp = 0;
     this.level = 1;
+  }
 
-
+  setJob (specialty) {
     if (specialty == "barbarian") {
       this.might = 10;
       this.wisdom = 5;
@@ -20,7 +23,7 @@ export class Character {
       this.health = 10;
     }
   }
-
+  
   gainLevel() {
     this.level += 1;
     this.might += 1;
@@ -30,7 +33,7 @@ export class Character {
 
   deadCheck() {
     if (this.health <= 0) {
-      endGameInFailure(cause);
+      endGameInFailure();
     }
   }
 }
