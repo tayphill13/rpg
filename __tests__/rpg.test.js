@@ -11,4 +11,10 @@ describe('Character', () => {
     let test2 = new Character("barbarian");
     expect(test2.might).toEqual(10);
   });
+
+  test('Should test stats increase by 1 when level increases by 1', () => {
+    let test3 = new Character("paladin");
+    test3.gainLevel();
+    expect(test3.health).toEqual(11);
+  });
 });

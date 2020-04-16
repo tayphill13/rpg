@@ -1,5 +1,9 @@
 export class Character {
   constructor(specialty) {
+    this.xp = 0;
+    this.level = 1;
+
+
     if (specialty == "barbarian") {
       this.might = 10;
       this.wisdom = 5;
@@ -16,5 +20,14 @@ export class Character {
       this.health = 10;
     }
   }
+
+  gainLevel() {
+    this.level += 1;
+    this.might += 1;
+    this.wisdom += 1;
+    this.health += 1;
+  }
+
+
 }
 
