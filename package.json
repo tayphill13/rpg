@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "Taylor Phillips",
+  "author": "Christopher Huber & Taylor Phillips",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",

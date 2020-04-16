@@ -12,6 +12,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
   1. Player can Choose 1 of 3 characters.
   2. Player will choose what class their character will be.
   3. Assign stats based on role.
+  4. Add functionality for gain a level. (new spells? stats?)
+  5. Player chooses an encounter: Random Encounter or Boss.
+  6. 
 
 ## Setup/Installation Requirements
 
